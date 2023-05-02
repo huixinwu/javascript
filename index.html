@@ -6,23 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All about JavaScript</title>
-    <meta name="description" content="This OER material is intended for use as the first level of JavaScript development.It focuses on the skills needed to build, maintain, and administrate JS application. ">
+    <meta name="description"
+        content="This OER material is intended for use as the first level of JavaScript development.It focuses on the skills needed to build, maintain, and administrate JS application. ">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-    <!--TOP BAR-->
-    <section class="top_header">
-        <div class="top_title">All About JavaScript</div>
-        <nav class="nav_bar">
-
-            <a href="#oer">About this OER</a>
-            <a href="#chapters">Chapters</a>
-            <a href="#activities">Activities</a>
-            <a href="#projects">Projects</a>
-        </nav>
-    </section>
     <!--INTRO -->
     <header class="intro">
         <div class="intro_msg">All you need to know about <em>JavaScript</em> and <em> JS Frameworks</em></div>
@@ -31,7 +22,7 @@
     <!-- MAIN CONTAINER -->
     <main>
         <div class="separators" id="oer"></div>
-        <h1 class="title" >What is this OER about?</h1>
+        <h1 class="title">What is this OER about?</h1>
         <p class="subtitle">Familiarize yourself with the teaching material</p>
         <!-- Description about OER-->
         <section class="OER_description">
@@ -83,49 +74,478 @@
             </dl>
         </section>
         <!-- chapters-->
-        <div class="separators" id="chapters"></div>
-        <h1 class="title" >JavaScript Chapters</h1>
-        <p class="subtitle">Start learning from the most updated JavaScript and JS Frameworks concepts and applications
-        </p>
+        <section>
+            <div class="separators" id="chapters"></div>
+            <h1 class="title">JavaScript Chapters</h1>
+            <p class="subtitle">Start learning from the most updated JavaScript and JS Frameworks concepts and
+                applications
+            </p>
+        </section>
         <section class="chapters">
+            <!-- JS basics-->
             <a href="html/js.html" class="cardLink">
                 <div class="cards">
-                <div class="cardImg"><img src="images/js_icon.png" alt="image of JavaScript logo"></div>
-                <div class="cardInfo">
-                    <h2>JavaScript Basics</h2>
-                    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. It is most well-known as the scripting language for Web pages, many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>JavaScript Basics</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web
+                            pages,many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it.
+                            <a class="cardInfo_a" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="
+                                ">Mozilla Developer</a>
+                        </p>
                     </div>
-                <div class="cardFooter">
-                    <nav>
-                        <a >Learning Outcomes</a>
-                    </nav>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
 
+                    </div>
                 </div>
-            </div></a>
-            <div class="cards">
-                <p>JS Fundamentals</p>
-            </div>
-            <div class="cards">
-                <p>JS Application </p>
-            </div>
-            <div class="cards">
-                <p>jQuery</p>
-            </div>
-            <div class="cards">
-                <p>AngularJS</p>
-            </div>
-            <div class="cards">
-                <p>React</p>
-            </div>
-            <div class="cards">
-                <p>AJAX</p>
-            </div>
-            <div class="cards">
-                <p>NodeJS</p>
-            </div>
+            </a>
+            <!-- JS fundamentals-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/js_logo_events.svg" alt="image of JavaScript logo">
+                    </div>
+                    <div class="cardInfo">
+                        <h2>JavaScript Fundamentals</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- JS applications-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/js_logo_events.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>JavaScript Applications</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- jQuery-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/jquery_logo.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>jQuery</h2>
+                        <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML
+                            document traversal and manipulation, event handling, animation, and Ajax much simpler with
+                            an easy-to-use API that works across a multitude of browsers. With a combination of
+                            versatility and extensibility, jQuery has changed the way that millions of people write
+                            JavaScript. <a class="cardInfo_a" href="https://jquery.com/" target="
+                            "> jQuery.com </a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
         </section>
-        <!-- activitivies -->
+        <section class="chapters">
+            <!-- angularJS-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/angular_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>AngularJS</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- ReactJS-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/reactjs_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>ReactJS</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- AJAX-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/ajax_icon.png" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>Asynchronous JavaScript and XML</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- NodeJS-->
+            <a href="html/js.html" class="cardLink">
+                <div class="cards">
+                    <div class="cardImg"><img src="images/nodejs_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>NodeJS</h2>
+                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
+                            with first-class functions. It is most well-known as the scripting language for Web pages,
+                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!---------------------------------->
+        <!----------- ACTIVITIES ----------->
+        <!-- activity header -->
+        <section>
+            <div class="separators" id="activities"></div>
+            <h1 class="title">Class Activities</h1>
+            <p class="subtitle">Practice your skills by completing each of the class activity</p>
+        </section>
+        <h2 class="sub_title_activity">JS activities</h2>
+        <!-- activity content-->
+        <section class="activities">
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        1. JavaScript Fundamentals
+                    </h3>
+                    <div class="body_activity_card">
+                        <p>JS data type, variables, and operators</p>
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        2. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        JS conditional statement
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        3. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        Application of loops in JS
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        4. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        JS data type, variables, and operators
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        5. JavaScript and DOM
+                    </h3>
+                    <div class="body_activity_card">
+                        JS events, modern JS using ES6+
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        6. Document Object Model, DOM
+                    </h3>
+                    <div class="body_activity_card">
+                        Introduction to DOM
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        7. Interation with the DOM
+                    </h3>
+                    <div class="body_activity_card">
+                        Accessing elements in the DOM using JS
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        8. Application using JS
+                    </h3>
+                    <div class="body_activity_card">
+                        Creating interactive web application elements
+                    </div>
+                </div>
+            </a>
+        </section>
+        <h2 class="sub_title_activity">JS frameworks activities</h2>
+        <section class="activities">
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        1. JavaScript Fundamentals
+                    </h3>
+                    <div class="body_activity_card">
+                        JS data type, variables, and operators
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        2. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        JS conditional statement
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        3. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        Application of loops in JS
+                    </div>
+                </div>
+            </a>
+            <a href="html/activity1.html">
+                <div class="activity_card">
+                    <h3 class="header_activity_card">
+                        4. JavaScript Essentials
+                    </h3>
+                    <div class="body_activity_card">
+                        JS data type, variables, and operators
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!---------------------------------->
+        <!----------- PROJECTS ----------->
+        <!-- project header -->
+        <section>
+            <div class="separators" id="projects"></div>
+            <h1 class="title">Projects</h1>
+            <p class="subtitle">Build your professional projects</p>
+        </section>
+        <section class="chapters">
+            <!-- project 1-->
+            <a href="html/project1.html" class="cardLink">
+                <div class="cards cardProject">
+                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>Informative Website Project</h2>
+                        <p>This project consists of the creation of a static informative website. The information on the
+                            website can be about places (city, country, parks...), products, animals, people,
+                            environmental
+                            conservation or green planet.
+                        </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- project 1-->
+            <a href="html/project1.html" class="cardLink">
+                <div class="cards cardProject">
+                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>Informative Website Project</h2>
+                        <p>This project consists of the creation of a static informative website. The information on the
+                            website can be about places (city, country, parks...), products, animals, people,
+                            environmental
+                            conservation or green planet.
+                        </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- project 1-->
+            <a href="html/project1.html" class="cardLink">
+                <div class="cards cardProject">
+                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>Informative Website Project</h2>
+                        <p>This project consists of the creation of a static informative website. The information on the
+                            website can be about places (city, country, parks...), products, animals, people,
+                            environmental
+                            conservation or green planet.
+                        </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+            <!-- project 1-->
+            <a href="html/project1.html" class="cardLink">
+                <div class="cards cardProject">
+                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
+                    <div class="cardInfo">
+                        <h2>Informative Website Project</h2>
+                        <p>This project consists of the creation of a static informative website. The information on the
+                            website can be about places (city, country, parks...), products, animals, people,
+                            environmental
+                            conservation or green planet.
+                        </p>
+                    </div>
+                    <div class="cardFooter">
+                        <nav>
+                            <a>Learning Outcomes</a>
+                        </nav>
+
+                    </div>
+                </div>
+            </a>
+        </section <!--TOP BAR-->
     </main>
+    <!------------------FOOTER------------------>
+    <footer class="copyright">
+        <p>
+            This Web Technology OER material, by Huixin Wu, is copyrighted under the terms of a Creative Commons
+            license:
+            <a href="https://creativecommons.org/licenses/" target="_blank"><img src="" alt=""></a>
+            This work is freely redistributable for non-commercial use, share-alike with attribution.
+        </p>
+        <p>
+            Important note: The materials used in this manual have the author's rights and are for educational use only.
+            Some informative material is compiled from www.lynda.com, www.wikipedia.org, www.w3schools.com,
+            www.khanacademy.com.
+            Images retrieved from wwww.pexels.com and www.iconfinder.com. Introduction photo by Soumil Kumar @
+            pexels.com
+        </p>
+        <hr>
+        <p>
+            <b>About the Authors:</b> Professor Wu is the course coordinator of the Digital Computer Theory course with
+            the
+            department of Engineering Technology at QCC. As the course coordinator, professor Wu updates the course
+            outline and also creates homework and exercises to complement the learning materials for the course. She
+            also has participated in grants and has experiences in creating new teaching terminologies for engineering
+            technology students. She was the CO-PI of the National Science Foundation (NSF) STEM grant titled “A video
+            Lecture Library and an Interactive Systems for Computer Programming Concepts”. In addition from her teaching
+            schedule, she is the lead of the curriculum development of TechWorks grant, and a faculty mentor of the
+            students Undergraduate Research Project program at QCC. Professor Wu has more than ten years of experience
+            teaching both electronics and computer programming courses in QCC and NYCCT.
+        </p>
+        <p>
+            For more information or feedback, contact:
+        <p>
+            <b>Professor Huixin Wu</b>
+            <br>
+            <em>Lecturer</em>
+            <br>
+            Engineering Technology Department
+            <br>
+            <a href="mailto:hwu@qcc.cuny.edu">hwu@qcc.cuny.edu</a>
+            <br>
+            <i>Queensborough Community College</i>
+            <br>
+            222-05 56th Avenue, Bayside, NY 11364
+        </p>
+
+
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3004099980126!2d-73.75958968459373!3d40.755416979327244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c261fb05968f07%3A0x49ff66ba1d2376bd!2sQueensborough%20Community%20College!5e0!3m2!1sen!2sus!4v1657056089803!5m2!1sen!2sus"
+            class="googleMap" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr>
+        <i>Web Technology: material prepared by professor Huixin Wu @ 2021</i>
+
+        </p>
+    </footer>
+    <section class="top_header">
+        <div class="top_title">All About JavaScript</div>
+        <nav class="nav_bar">
+            <a href="#oer">About this OER</a>
+            <a href="#chapters">Chapters</a>
+            <a href="#activities">Activities</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <nav class="collapsible_menu_icon">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+                <p>Menu</p>
+          
+            
+        </nav>
+    </section>
+    <script>
+        function myFunction(x){
+          x.classList.toggle("change");
+        }
+        </script>
 </body>
 
 </html>
