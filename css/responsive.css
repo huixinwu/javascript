@@ -1,0 +1,25 @@
+/*----- index.html ------ */
+@media screen and (max-width: 1400px) {
+    div.introparagraph a{display: block; width: 70%; margin: 1em auto;}
+    div.introparagraph{padding: 1em; font-size: 1.1em;}
+    div.introimage{height: 70%; }
+    div.card{ width: 45%;}
+}
+@media screen and (max-width: 1100px) {
+    div.introparagraph, div.introimage{
+        width: 80%;
+    }
+    div.introparagraph a{font-size:1em; width: 30%; display: inline-block; margin: 1em 0.6em 0em 0em; padding: 0.7em;}
+    div.cardheader{
+        padding:  2em;
+    }
+    .cardheader img{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 900px) {
+    div.card{width: 80%; height: auto; margin: 10%;}
+}
+
+

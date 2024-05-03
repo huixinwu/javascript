@@ -3,549 +3,314 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All about JavaScript</title>
-    <meta name="description"
-        content="This OER material is intended for use as the first level of JavaScript development.It focuses on the skills needed to build, maintain, and administrate JS application. ">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="colors.css">
-    <link rel="stylesheet" href="responsive.css">
+    <title>Dive into JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <!--INTRO -->
-    <header class="intro">
-        <div class="intro_msg">All you need to know about <em>JavaScript</em> and <em> JS Frameworks</em></div>
-        <div class="intro_img"><img src="images/intro_image.jpg" alt="image of a hand typing"></div>
-    </header>
-    <!-- MAIN CONTAINER -->
-    <main>
-        <div class="separators" id="oer"></div>
-        <h1 class="title">What is this OER about?</h1>
-        <p class="subtitle">Familiarize yourself with the teaching material</p>
-        <!-- Description about OER-->
-        <section class="OER_description">
+    <main class="maincontainer">
+        <section class="intro">
+            <div class="introimage"><img src="images/JavaScript.png"
+                    alt="images of a JavaScript code view from the internet browser"></div>
+            <div class="introparagraph">
+                <p>Learn fundamental programming techniques in JavaScript, often abbreviated as JS, on the client and
+                    server side for the behavior of web pages and web applications.</p>
+                <a href="#modules">Explore the modules</a>
+                <a href="#activities">Review the activities</a>
+                <a href="#projects">Check the projects</a>
+            </div>
+        </section>
+        <div class="subtitlediv">
+            <h2 class="subtitle">About this OER website</h2>
+            <p class="subtitleparagraph">Learn how to use the OER material in this website</p>
+        </div>
+        <section>
             <dl>
-                <dt>Introduction</dt>
                 <dd>
-                    This OER material is intended for use as the first level of web technology development. It focuses
-                    on the skills needed to build, maintain, and administrate a website. At the beginning of the
-                    courses, students will learn how to construct and test code in different interfaces such as HTML,
-                    CSS, and HTML5. After that, the course will teach students how to explore different libraries and
-                    frameworks, customize existing routines or procedures in their code, and leverage code from past
-                    projects to develop code for a new one. At the end, students will demonstrate their coding skills by
-                    translating design requirements and instructions into a responsive implementation using different
-                    interfaces and frameworks, and host their class work through the internet.
-                    <br><br>
-                    The OER material is separated into ten chapters. Each chapter has its learning outcomes, support
-                    materials, and some chapters have support videos. The support materials are downloadable and are in
-                    .pdf format, therefore before downloading the material you have to ensure that you have an
-                    application that can read the .pdf format.
-
-                    The OER material also has activities on HTML and CSS, JavaScript, CSS and JS frameworks, and Python
-                    and SQL. The activities are carried out as a complement to the learning of each chapter. Most of the
-                    activity have an activity description and an exemplary video.
-                    <br><br>
-                    At the end of the OER website is the projects section. The projects are intended to test how
-                    students can link what they learned from the chapters and form a project. Each project has a
-                    description of the project, how the project will be graded, and samples of work done by previous
-                    students.
-                </dd>
-                <dt>Curricular Objectives Addresses by This Course</dt>
-                <dd>At the end of the course, student shall be able to:
+                    <p>This Open Educational Resource (OER) is designed to provide comprehensive guidance for mastering
+                        full-stack web development with JavaScript. Emphasizing the essential skills required to
+                        construct, manage, and administer websites using JavaScript and its frameworks, the material is
+                        organized into six distinct modules:</p>
                     <ul>
-                        <li>Build and test code using text editor, and translate design instruction into code.</li>
-                        <li>Collect and use existing routines or procedures and integrate them into their code.</li>
-                        <li>Customize frameworks, like a blueprint or a template, for their application.</li>
-                        <li>Customize frameworks, like a blueprint or a template, for their application.</li>
+                        <li>
+                            <p><b>JavaScript Fundamentals: </b>Covering fundamental concepts and syntax of JavaScript programming. </p>
+                        </li>
+                        <li>
+                            <p><b>JavaScript and DOM Interaction:</b> Exploring interaction with the Document Object Model (DOM) using JavaScript. </p>
+                        </li>
+                        <li>
+                            <p><b>JavaScript Framework: ReactJS</b> Delving into the ReactJS framework for building dynamic user interfaces.</p>
+                        </li>
+                        <li>
+                            <p><b>AJAX and APIs</b> Understating and deploying AJAX and APIs in modern web development, enabling the creation of dynamic and interconnected web applications.</p>
+                        </li>
+                        <li>
+                            <p><b>Client and Server Model using NodeJS: </b> Understanding the client-server architecture using NodeJS for server-side scripting.</p>
+                        </li>
+                        <li>
+                            <p><b>NoSQL Database: </b> Introducing NoSQL databases, with a focus on MongoDB for data storage.</p>
+                        </li>
                     </ul>
-                </dd>
-                <dt>Acknowledgements</dt>
-                <dd>I want to give my thanks to my mother Wanxia who has taught me to trust in myself, in my abilities,
-                    and in my dreams. As my mom says: “always do with the best you can offer!”
-                    <br><br>
-                    I also want to give thanks to the support of OER in QCC that helped me organize the necessary
-                    documentation for the publication of this manual.
-                    <br><br>
-                    <em>Huixin Wu</em>
-
+                    <p>Each module comprises lecture learning materials, accompanied by hands-on lab exercise and projects. The learning materials are provided in downloadable PDF and Word document formats, supplemented by instructional videos created by the OER author and sourced from reputable YouTube channels.</p>
+                    <p>The lab activities are integrated strategically throughout the learning process, reinforcing concepts learned in every two sessions. Each lab exercise includes detailed instructions, procedures, and illustrative videos to aid comprehension.</p>
+                    <p>Furthermore, each module culminates in a project section, aimed at assessing students' ability to apply acquired knowledge to real-world scenarios. Projects are designed to challenge students to synthesize concepts covered in the module, with clear instructions, grading rubrics, and samples of previous student work provided for reference.</p>
+                    <p>This OER offers a comprehensive pathway for learners to master JavaScript-based full-stack web development, combining theoretical understanding with practical application through structured learning materials, engaging lab activities, and hands-on projects.</p>
                 </dd>
             </dl>
         </section>
-        <!-- chapters-->
-        <section>
-            <div class="separators" id="chapters"></div>
-            <h1 class="title">JavaScript Chapters</h1>
-            <p class="subtitle">Start learning from the most updated JavaScript and JS Frameworks concepts and
-                applications
-            </p>
-        </section>
-        <section class="chapters">
-            <!-- JS basics-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>JavaScript Basics</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web
-                            pages,many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it.
-                            <a class="cardInfo_a" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="
-                                ">Mozilla Developer</a>
-                        </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
+        <!-------------  CHAPTERS ------------->
+        <div class="subtitlediv" id="modules">
+            <h2 class="subtitle">JavaScript Modules</h2>
+            <p class="subtitleparagraph">Start learning from the most updated JavaScript concepts</p>
+        </div>
+        <section class="cardcontainer">
+            <!-- JS fundamental -->
+            <div class="card">
+                <div class="cardheader"><img src="images/js.svg" alt="image of logo of JavaScript"></div>
+                <div class="cardbody">
+                    <h4>Module 1. JavaScript Fundamental</h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>8hr</p>
+                    <p class="footericon"><span>&#128209;</span>6 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>6 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
                 </div>
-            </a>
-            <!-- JS fundamentals-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/js_logo_events.svg" alt="image of JavaScript logo">
-                    </div>
-                    <div class="cardInfo">
-                        <h2>JavaScript Fundamentals</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
+                <div class="cardfooter">
+                    <a href="modules/module1_fundamentals/module1.html" class="cardlink">Go to JS Fundamental</a>
                 </div>
-            </a>
-            <!-- JS applications-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/js_logo_events.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>JavaScript Applications</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- jQuery-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/jquery_logo.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>jQuery</h2>
-                        <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML
-                            document traversal and manipulation, event handling, animation, and Ajax much simpler with
-                            an easy-to-use API that works across a multitude of browsers. With a combination of
-                            versatility and extensibility, jQuery has changed the way that millions of people write
-                            JavaScript. <a class="cardInfo_a" href="https://jquery.com/" target="
-                            "> jQuery.com </a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-        </section>
-        <section class="chapters">
-            <!-- angularJS-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/angular_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>AngularJS</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- ReactJS-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/reactjs_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>ReactJS</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- AJAX-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/ajax_icon.png" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>Asynchronous JavaScript and XML</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- NodeJS-->
-            <a href="html/js.html" class="cardLink">
-                <div class="cards">
-                    <div class="cardImg"><img src="images/nodejs_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>NodeJS</h2>
-                        <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
-                            with first-class functions. It is most well-known as the scripting language for Web pages,
-                            many non-browser environments, Node.js, Apache CouchDB and Adobe Acrobat, also use it. <a
-                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a> </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-        </section>
-        <!---------------------------------->
-        <!----------- ACTIVITIES ----------->
-        <!-- activity header -->
-        <section>
-            <div class="separators" id="activities"></div>
-            <h1 class="title">Class Activities</h1>
-            <p class="subtitle">Practice your skills by completing each of the class activity</p>
-        </section>
-        <h2 class="sub_title_activity">JS activities</h2>
-        <!-- activity content-->
-        <section class="activities">
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        1. JavaScript Fundamentals
-                    </h3>
-                    <div class="body_activity_card">
-                        <p>JS data type, variables, and operators</p>
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        2. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        JS conditional statement
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        3. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        Application of loops in JS
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        4. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        JS data type, variables, and operators
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        5. JavaScript and DOM
-                    </h3>
-                    <div class="body_activity_card">
-                        JS events, modern JS using ES6+
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        6. Document Object Model, DOM
-                    </h3>
-                    <div class="body_activity_card">
-                        Introduction to DOM
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        7. Interation with the DOM
-                    </h3>
-                    <div class="body_activity_card">
-                        Accessing elements in the DOM using JS
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        8. Application using JS
-                    </h3>
-                    <div class="body_activity_card">
-                        Creating interactive web application elements
-                    </div>
-                </div>
-            </a>
-        </section>
-        <h2 class="sub_title_activity">JS frameworks activities</h2>
-        <section class="activities">
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        1. JavaScript Fundamentals
-                    </h3>
-                    <div class="body_activity_card">
-                        JS data type, variables, and operators
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        2. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        JS conditional statement
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        3. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        Application of loops in JS
-                    </div>
-                </div>
-            </a>
-            <a href="html/activity1.html">
-                <div class="activity_card">
-                    <h3 class="header_activity_card">
-                        4. JavaScript Essentials
-                    </h3>
-                    <div class="body_activity_card">
-                        JS data type, variables, and operators
-                    </div>
-                </div>
-            </a>
-        </section>
-        <!---------------------------------->
-        <!----------- PROJECTS ----------->
-        <!-- project header -->
-        <section>
-            <div class="separators" id="projects"></div>
-            <h1 class="title">Projects</h1>
-            <p class="subtitle">Build your professional projects</p>
-        </section>
-        <section class="chapters">
-            <!-- project 1-->
-            <a href="html/project1.html" class="cardLink">
-                <div class="cards cardProject">
-                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>Informative Website Project</h2>
-                        <p>This project consists of the creation of a static informative website. The information on the
-                            website can be about places (city, country, parks...), products, animals, people,
-                            environmental
-                            conservation or green planet.
-                        </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- project 1-->
-            <a href="html/project1.html" class="cardLink">
-                <div class="cards cardProject">
-                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>Informative Website Project</h2>
-                        <p>This project consists of the creation of a static informative website. The information on the
-                            website can be about places (city, country, parks...), products, animals, people,
-                            environmental
-                            conservation or green planet.
-                        </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- project 1-->
-            <a href="html/project1.html" class="cardLink">
-                <div class="cards cardProject">
-                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>Informative Website Project</h2>
-                        <p>This project consists of the creation of a static informative website. The information on the
-                            website can be about places (city, country, parks...), products, animals, people,
-                            environmental
-                            conservation or green planet.
-                        </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-            <!-- project 1-->
-            <a href="html/project1.html" class="cardLink">
-                <div class="cards cardProject">
-                    <div class="cardImg"><img src="images/js_icon.svg" alt="image of JavaScript logo"></div>
-                    <div class="cardInfo">
-                        <h2>Informative Website Project</h2>
-                        <p>This project consists of the creation of a static informative website. The information on the
-                            website can be about places (city, country, parks...), products, animals, people,
-                            environmental
-                            conservation or green planet.
-                        </p>
-                    </div>
-                    <div class="cardFooter">
-                        <nav>
-                            <a>Learning Outcomes</a>
-                        </nav>
-
-                    </div>
-                </div>
-            </a>
-        </section <!--TOP BAR-->
-    </main>
-    <!------------------FOOTER------------------>
-    <footer class="copyright">
-        <p>
-            This Web Technology OER material, by Huixin Wu, is copyrighted under the terms of a Creative Commons
-            license:
-            <a href="https://creativecommons.org/licenses/" target="_blank"><img src="" alt=""></a>
-            This work is freely redistributable for non-commercial use, share-alike with attribution.
-        </p>
-        <p>
-            Important note: The materials used in this manual have the author's rights and are for educational use only.
-            Some informative material is compiled from www.lynda.com, www.wikipedia.org, www.w3schools.com,
-            www.khanacademy.com.
-            Images retrieved from wwww.pexels.com and www.iconfinder.com. Introduction photo by Soumil Kumar @
-            pexels.com
-        </p>
-        <hr>
-        <p>
-            <b>About the Authors:</b> Professor Wu is the course coordinator of the Digital Computer Theory course with
-            the
-            department of Engineering Technology at QCC. As the course coordinator, professor Wu updates the course
-            outline and also creates homework and exercises to complement the learning materials for the course. She
-            also has participated in grants and has experiences in creating new teaching terminologies for engineering
-            technology students. She was the CO-PI of the National Science Foundation (NSF) STEM grant titled “A video
-            Lecture Library and an Interactive Systems for Computer Programming Concepts”. In addition from her teaching
-            schedule, she is the lead of the curriculum development of TechWorks grant, and a faculty mentor of the
-            students Undergraduate Research Project program at QCC. Professor Wu has more than ten years of experience
-            teaching both electronics and computer programming courses in QCC and NYCCT.
-        </p>
-        <p>
-            For more information or feedback, contact:
-        <p>
-            <b>Professor Huixin Wu</b>
-            <br>
-            <em>Lecturer</em>
-            <br>
-            Engineering Technology Department
-            <br>
-            <a href="mailto:hwu@qcc.cuny.edu">hwu@qcc.cuny.edu</a>
-            <br>
-            <i>Queensborough Community College</i>
-            <br>
-            222-05 56th Avenue, Bayside, NY 11364
-        </p>
-
-
-        <br>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3004099980126!2d-73.75958968459373!3d40.755416979327244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c261fb05968f07%3A0x49ff66ba1d2376bd!2sQueensborough%20Community%20College!5e0!3m2!1sen!2sus!4v1657056089803!5m2!1sen!2sus"
-            class="googleMap" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <hr>
-        <i>Web Technology: material prepared by professor Huixin Wu @ 2021</i>
-
-        </p>
-    </footer>
-    <section class="top_header">
-        <div class="top_title">All About JavaScript</div>
-        <nav class="nav_bar">
-            <a href="#oer">About this OER</a>
-            <a href="#chapters">Chapters</a>
-            <a href="#activities">Activities</a>
-            <a href="#projects">Projects</a>
-        </nav>
-        <nav class="collapsible_menu_icon">
-            <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
             </div>
-                <p>Menu</p>
-          
-            
+
+            <!-- JS and the DOM -->
+            <div class="card">
+                <div class="cardheader"><img src="images/dom.svg" alt="image of logo of HMTL tag"></div>
+                <div class="cardbody">
+                    <h4>Module 2. JavaScript and DOM interaction</h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>6hr</p>
+                    <p class="footericon"><span>&#128209;</span>3 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>3 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
+                </div>
+                <div class="cardfooter">
+                    <a href="html/jsdom.html" class="cardlink">Go to JS and DOM interaction</a>
+                </div>
+            </div>
+
+            <!-- JS framework: ReactJS -->
+            <div class="card">
+                <div class="cardheader"><img src="images/react.svg" alt="image of logo of react"></div>
+                <div class="cardbody">
+                    <h4>Module 3. JavaScript framework: ReactJS</h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>12hr</p>
+                    <p class="footericon"><span>&#128209;</span>5 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>5 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
+                </div>
+                <div class="cardfooter">
+                    <a href="html/reactjs.html" class="cardlink">Go to JavaScript framework: ReactJS</a>
+                </div>
+            </div>
+
+            <!-- Extra notes -->
+            <div class="card">
+                <div class="cardheader"><img src="images/js.svg" alt="image of logo of JavaScript"></div>
+                <div class="cardbody">
+                    <h4>Module 4. AJAX and APIs </h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>3hr</p>
+                    <p class="footericon"><span>&#128209;</span>2 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>2 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
+                </div>
+                <div class="cardfooter">
+                    <a href="html/jsdom.html" class="cardlink">Go to AJAX and APIs</a>
+                </div>
+            </div>
+            <!-- NodeJS -->
+            <div class="card">
+                <div class="cardheader"><img src="images/nodejs.svg" alt="image of logo of nodejs"></div>
+                <div class="cardbody">
+                    <h4>Module 5. Backend programming</h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>8hr</p>
+                    <p class="footericon"><span>&#128209;</span>6 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>6 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
+                </div>
+                <div class="cardfooter">
+                    <a href="html/nodejs.html" class="cardlink">Go to backend programming</a>
+                </div>
+            </div>
+
+            <!-- NoSQL -->
+            <div class="card">
+                <div class="cardheader"><img src="images/mongodb.svg" alt="image of logo of MongoDB"></div>
+                <div class="cardbody">
+                    <h4>Module 6. Introduction to NoSQL, MongoDB</h4>
+                    <p class="card_intro">This module introduce the fundamental concepts of JavaScript syntax. It covers
+                        from the basic JS
+                        programming concept, such as data type and variables, to more advanced topics as objects and
+                        methods in JS. </p>
+                    <p><span>&#128343</span>8hr</p>
+                    <p class="footericon"><span>&#128209;</span>6 lectures</p>
+                    <p class="footericon"><span>&#128196;</span>6 lab activities</p>
+                    <p class="footericon"><span>&#128187;</span>1 project</p>
+                </div>
+                <div class="cardfooter">
+                    <a href="html/mongodb.html" class="cardlink">Go to introduction to NoSQL, MongoDB</a>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-------------  ACTIVITIES ------------->
+        
+
+        <!-------------  PROJECT ------------->
+       
+        </section>
+    </main>
+    <!-------------  FOOTER ------------->
+    <footer class="footer">
+        <p>This Web Technology OER material, by Huixin Wu, is copyrighted under the terms of a Creative Commons license:
+        </p>
+        <div class="oerimg">
+            <img src="images/OER_copyrighted.png" alt="logo of OER copyrighted as freely redistributable for non-commercial use, share-alike with attribution ">
+        </div>
+        <p>This work is freely redistributable for non-commercial use, share-alike with attribution.</p>
+        <p>Important note: The materials used in this manual have the author's rights and are for educational use only.
+            Some informative material is compiled from www.lynda.com, www.wikipedia.org, www.w3schools.com,
+            www.khanacademy.com, www.geeksforgeeks.com</p>
+        <p><b>About the Authors: </b>Professor Wu is a distinguished faculty member within the Department of Engineering
+            Technology at QCC. As the course coordinator of Digital Computer Theory, Introduction to Enginnering
+            Technology, Professor Wu assumes a pivotal role in shaping the academic journey of her students.</p>
+        <p>With a keen eye for innovation, Professor Wu meticulously updates the course outline to ensure relevance in
+            the ever-evolving landscape of digital technology. Her dedication extends beyond the classroom as she
+            diligently crafts homework assignments and exercises, enriching the learning experience for her students.
+        </p>
+        <p>Professor Wu's expertise extends to grant participation, where she has played a pivotal role as CO-PI in the
+            National Science Foundation (NSF) STEM grant titled “A Video Lecture Library and an Interactive System for
+            Computer Programming Concepts.” Her contributions have not only enriched educational resources but have also
+            led to the creation of novel teaching methodologies tailored to engineering technology students.
+        </p>
+        <p>In addition to her teaching responsibilities, Professor Wu serves as the lead in curriculum development for
+            the TechWorks grant, spearheading initiatives that bridge academia with industry demands. Furthermore, she
+            passionately mentors students through the Undergraduate Research Project program and CUNY Research Scholar
+            Program at QCC, nurturing the next generation of innovators.</p>
+        <p>With over a decade of experience teaching electronics and computer programming courses in both QCC and NYCCT,
+            Professor Wu brings a wealth of knowledge and a commitment to excellence in education. Her dedication to
+            empowering students and advancing the field of engineering technology is truly commendable.</p>
+        <div class="contactfooter">
+            <p>For more information or feedback, contact:</p>
+            <p><a href="mailto:hwu@qcc.cuny.edu" class="emailfooter"><span>&#128233;</span>Professor Huixin Wu
+                    (hwu@qcc.cuny.edu)</a></p>
+            <p><b>Lecturer</b></p>
+            <p class="par_footer"><em>Engineering Technology Department</em></p>
+            <p class="par_footer">Queensborough Community College</p>
+        </div>
+
+        <p class="copyrighted"><em>Material prepared by Professor H. Wu @ 2023</em></p>
+
+    </footer>
+    <!-- NAVIGATION HEADER -->
+    <header class="header">
+        <nav class="headernavigation">
+            <a href="index.html" class="headerlink home dropdown_container">Dive Into
+                <span>J</span>ava<span>S</span>cript</a>
+            <a href="index.html" class="headerlink dropdown_container">Home</a>
+            <div class="dropdown_container">
+                <a href="#modules" class="headerlink dropdown-toggle" data-bs-toggle="dropdown">Modules</a>
+                <!-- dropdown menu -->
+                <ul class="dropdown-menu">
+                    <li><a href="modules/module1_fundamentals/module1.html" class="dropdown-item">Module 1. JavaScript
+                            Fundamental</a>
+                    </li>
+                    <li><a href="http://www.qc.cuny.edu/" class="dropdown-item" target="_blank">Module 2. JavaScript and
+                            DOM
+                            interaction</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 3. JavaScript
+                            framework:
+                            ReactJS</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 4. AJAX and
+                            APIs</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 5. Backend
+                            programming using
+                            NodeJS</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 6. Introduction
+                            to NoSQL,
+                            MongoDB</a> </li>
+                </ul>
+            </div>
+            <div class="dropdown_container">
+                <a href="html/activity.html" class="headerlink dropdown-toggle" data-bs-toggle="dropdown">Lab
+                    Activity</a>
+                <!-- dropdown menu -->
+                <ul class="dropdown-menu">
+                    <li><a href="modules/module1_fundamentals/module1.html" class="dropdown-item">Module 1. JavaScript
+                            Fundamental</a>
+                    </li>
+                    <li><a href="http://www.qc.cuny.edu/" class="dropdown-item" target="_blank">Module 2. JavaScript and
+                            DOM
+                            interaction</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 3. JavaScript
+                            framework:
+                            ReactJS</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 4. AJAX and
+                            APIs</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 5. Backend
+                            programming using
+                            NodeJS</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">Module 6. Introduction
+                            to NoSQL,
+                            MongoDB</a> </li>
+                </ul>
+            </div>
+            <div class="dropdown_container">
+                <a href="html/activity.html" class="headerlink dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+                <!-- dropdown menu -->
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.qcc.cuny.edu/" target="_blank" class="dropdown-item">1. JavaScript
+                            fundamental website</a>
+                    </li>
+                    <li><a href="http://www.qc.cuny.edu/" class="dropdown-item" target="_blank">2. ReactJS App</a> </li>
+                    <li><a href="https://www.bcc.cuny.edu/" target="_blank" class="dropdown-item">3. Backend programming
+                            with ReactJS</a> </li>
+                </ul>
+            </div>
+
         </nav>
-    </section>
-    <script>
-        function myFunction(x){
-          x.classList.toggle("change");
-        }
+    </header>
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
+    <script src="js/script.js">
+
+    </script>
 </body>
 
 </html>

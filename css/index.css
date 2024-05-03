@@ -1,0 +1,193 @@
+main.maincontainer{
+    width: 90%;
+    margin:10em auto 5% auto; 
+}
+section.intro{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    color: var(--primarycolor);  
+}
+div.introparagraph, div.introimage{
+    width: 45%;
+    margin: auto;
+}
+div.introparagraph{
+    padding: 3em 1em;
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div.introparagraph p{
+    width: 100%;
+}
+div.introparagraph h1 span{
+    color: var(--primarycolordark);
+    font-size: 1.2em;
+    font-family: "Marker Felt", fantasy;
+}
+div.introparagraph a{
+    display: inline-block;
+    padding: 0.5em 0.3em;
+    width: 160px;
+    margin: 0.5em 0.2em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    color: var(--primarycolor);
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 1px var(--primarycolordark);
+    transition: ease 300ms;
+    text-align: center;
+}
+div.introparagraph a:hover{
+    background-color: var(--primarycolor);
+    color:whitesmoke;
+    transform: scale(1.07);
+    box-shadow: none;
+}
+div.introimage{
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgb(50,50,50);
+    margin: 1em;
+}
+/* ---- subtitle ----- */
+div.subtitlediv{
+    text-align: center;
+    margin: 10em 0em 5em 0em;
+}
+h2.subtitle{
+    color: var(--primarycolor);
+    margin-top: 10% ;
+    border-bottom: ridge 1px var(--primarycolordark);
+    padding-bottom: 0.3em;
+}
+p.subtitleparagraph{
+    font-style: italic;
+}
+/*------- CARDS --------- */
+section.cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.card{
+    width: 500px;
+    margin: 2% 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 0.5px gainsboro;
+    background-color: white;
+    transition: ease 300ms;
+    border: solid gray 1px;
+}
+div.cardheader{
+    width: 100%;
+    height: 50%;
+    padding:  4em;
+}
+.cardheader img{
+    width: 60%;
+    margin: auto;
+}
+div.cardbody{
+    padding: 1em;
+    color: var(--primarycolor);
+}
+.card_intro{
+    margin-bottom: 3em;
+}
+div.cardfooter{
+    padding: 1em;
+}
+p.footericon{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}   
+a.cardlink{
+    border-top: ridge 1px rgb(100,100,100);
+    display: block;
+    color: var(--primarycolor);
+    padding: 1.5em 0em;
+    transition: ease 300ms;
+}
+a.cardlink:hover{
+    color: var(--primarycolordark);
+    font-weight: 900;
+}
+div.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 8px 1px var(--primarycolorlight);
+}
+div.card:hover a.cardlink{
+    color: var(--primarycolordark);
+}
+h3.h3subtitle{
+    color: var(--primarycolor);
+}
+div.imgactivitycard{
+    padding: 3em;
+    position: relative;
+    width: 290px;
+    margin: 1% 0.5%;
+}
+div.imgactivitycard p, div.imgactivitycard h4{
+    position: absolute;
+    text-align: center;
+    padding: 1em;
+    color: var(--primarycolor);
+    font-size: 1.1em;
+    right: 2%;
+    left: 2%;
+}
+div.imgactivitycard p{
+    top: 5%;
+}
+div.imgactivitycard h4{
+    top: -10%;
+    color: var(--primarycolordark)
+}
+div.imgactivitycard:hover p{
+    color: var(--primarycolordark);
+    font-weight: 500;
+}
+/*------- FOOTER -------- */
+.footer{
+    color: whitesmoke;
+    margin: 10em auto;
+    background-color: rgb(100,100,100);
+    padding: 2em;
+}
+.oerimg{
+    width: 300px;
+}
+div.contactfooter{
+    border: solid var(--primarycolorlight) 1px;
+    border-radius: 10px;
+    padding: 1em;
+    width: 450px;
+}
+a.emailfooter{
+    color:var(--primarycolorlight);
+    margin-right: 1em;
+}
+a.emailfooter:hover{
+    color: var(--primarycolordark);
+    font-weight: 900;
+}
+a.emailfooter span{
+    font-size: 1.5em; 
+    margin-right: 0.5em;
+}
+p.par_footer{
+    margin-top: -1em;
+}
+p.copyrighted{
+    border-top: solid var(--primarycolorlight) 0.5px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 3em 0em;
+    padding: 3em;
+}
