@@ -1,8 +1,0 @@
-html{scroll-behavior: smooth;}
-body{padding: 1em;}
-*{box-sizing: border-box; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-:root{
-    --primaryColor: #BA0D39; /*rgb(186,13,57)*/
-    --primaryLight: #FCBBCC; /*rgb(252,187,204)*/
-    --primaryDark: #420414; /*rgb(66,4,20)*/
-}
